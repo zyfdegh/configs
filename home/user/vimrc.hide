@@ -1,0 +1,6 @@
+set number
+set numberwidth=5
+syntax on
+set fencs=utf-8,gbk
+execute pathogen#infect()
+filetype plugin indent on

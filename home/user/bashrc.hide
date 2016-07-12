@@ -1,0 +1,29 @@
+# .bashrc
+
+# User specific aliases and functions
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias l='ls'
+alias ll='ls -l'
+alias lll='ls -al'
+alias la='ls -a'
+alias startx='startxfce4'
+alias up='cd ..;ls -l'
+alias cls="clear"
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# path to the DCOS CLI binary
+if [[ "$PATH" != *"/usr/local/dcos-cli/bin"* ]];
+  then export PATH=$PATH:/usr/local/dcos-cli/bin;
+fi
+
+# path to the DCOS CLI binary
+if [[ "$PATH" != *"/usr/local/dcos-cli/bin"* ]];
+  then export PATH=$PATH:/usr/local/dcos-cli/bin;
+fi
