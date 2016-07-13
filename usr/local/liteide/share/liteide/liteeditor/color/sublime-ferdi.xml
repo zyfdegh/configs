@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme version="1.0" name="Sublime Text 2">
+  <!--
+  Based on the Sublime Text2 theme for liteide
+  Improvements are welcome
+  Public Domain, Henson Lu, 2012
+  -->
+  <style name="Text" foreground="#F8F8F2" background="#272822"/>
+  <style name="Extra" foreground="#73705F" background="#272822"/>
+  <style name="Selection" background="#4A4A41"/>
+  <style name="CurrentLine" background="#333333"/>
+  <style name="IndentLine" foreground="#008B8B"/>
+  <style name="VisualWhitespace" foreground="#c0c0c0"/>
+  <style name="Keyword" foreground="#f92672"/>
+  <style name="DataType" foreground="#4cb8e3" /> 
+  <style name="Decimal" foreground="#A180FB"/>
+  <style name="BaseN" foreground="#A180FB"/>
+  <style name="Float" foreground="#A180FB"/>
+  <style name="Char" foreground="#A180FB"/>
+  <style name="String" foreground="#E6DB74"/>
+  <style name="Comment" foreground="#73705F"/>
+  <style name="Alert" foreground="#ff0000"/>
+  <style name="Error" foreground="#ff0000"/>
+  <style name="Function" foreground="#B8E143"/>
+  <style name="RegionMarker" foreground="#F8F8F2"/>
+  <style name="Symbol" foreground="#F8F8F2"/>       
+  <style name="BuiltinFunc" foreground="#4cb8e3"/>
+  <style name="Predeclared" foreground="#A180FB"/> 
+  <style name="FuncDecl" foreground="#B8E143"/>
+  <style name="Placeholder" foreground="#e274e2"/>
+  <style name="ToDo" foreground="#7272ff" bold="true"/>
+</style-scheme>
