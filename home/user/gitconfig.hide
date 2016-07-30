@@ -1,0 +1,10 @@
+[user]
+	name = zyfdegh
+	email = zyfdegg@gmail.com
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
+[push]
+	default = matching
