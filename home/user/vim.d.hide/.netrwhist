@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/root/ansible/Hello_Aws/roles/common/tasks'
+let g:netrw_dirhist_2='/root/ansible/Linker_Mesos_Aws'
+let g:netrw_dirhist_3='/root/codes/linkerDcosDockerFile/linkerDeployer'
+let g:netrw_dirhist_4='/root/git/zyfdegh/project64'
+let g:netrw_dirhist_5='/root/GOPATH/src/github.com/zyfdegh/startup-update/.git'
+let g:netrw_dirhist_6='/root/web-console/nodejs/.tty.js'
