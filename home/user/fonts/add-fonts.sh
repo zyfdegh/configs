@@ -1,14 +1,11 @@
-# download
-# unzip
+#!/bin/bash
 
-# mkdir
-mkdir /usr/share/fonts/consolas
 
-# cp
-cp consolas*.ttf /usr/share/fonts/consolas
+dfont=$1
 
-# enable
-cd /usr/share/fonts/consolas
+cp -r ${dfont} /usr/share/fonts/
+
+cd /usr/share/fonts/${dfont}
 mkfontscale
 mkfontdir
 fc-cache
